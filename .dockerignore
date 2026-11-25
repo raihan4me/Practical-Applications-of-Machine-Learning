@@ -1,0 +1,7 @@
+.venv
+data
+reports
+run
+src
+**/__pycache__
+*.pyc

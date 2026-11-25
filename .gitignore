@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated data (regenerate with generate_data.py / audit.py)
+data/raw/
+data/processed/
+data/incoming/
+
+# Reports and run artifacts (regenerate)
+reports/
+run/
+
+# Model artifacts (regenerate with train_final.py)
+models/*.joblib
+models/metadata.json
+
+# OS
+.DS_Store
